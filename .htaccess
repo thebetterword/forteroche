@@ -1,0 +1,15 @@
+# Suivi des liens symboliques
+# Options +FollowSymlinks
+
+# Active le module de redirection
+RewriteEngine On
+
+# Accès aux fichiers CSS, JPG, PNG, JS et PDF en étant insensible à la casse [NC]
+RewriteRule  ^.*\.css$  -  [NC,L]
+RewriteRule  ^.*\.jpg$  -  [NC,L]
+RewriteRule  ^.*\.png$  -  [NC,L]
+RewriteRule  ^.*\.js$   -  [NC,L]
+RewriteRule  ^.*\.pdf$  -  [NC,L]
+
+# Redirige chaque requête vers index.php
+RewriteRule ^.*$ index.php

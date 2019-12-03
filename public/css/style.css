@@ -1,0 +1,42 @@
+/* polices de la page */
+
+@font-face
+{
+	font-family: "Bebas";
+	src: url("fonts/bebas_kai/BebasKai.ttf");
+}
+
+@font-face
+{
+	font-family: "Signature";
+	src: url("fonts/SignatureVP-PersonalUse.ttf");
+}
+
+@font-face
+{
+	font-family: "timeless";
+	src: url("fonts/timeless/Timeless.ttf");
+}
+
+@font-face
+{
+	font-family: "Geo";
+	src: url("fonts/geo_sans_light/GeosansLight.ttf");
+}
+
+/*HEADER */
+
+header
+{
+	background-color: rgb(160, 188, 217);
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1
+{
+	font-family: "Signature", serif;
+	color: white;
+}
